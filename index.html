@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div id="thebackground">
+        <div class="container-1">
+            <h2>Blackjack Games Challenge</h2>
+            <h3><span id="headTitle">Lets Play</span></h3>
+
+            <div class="flex-blackjack-row-1">
+                <div class="flex-result-box-1" id="your-result-board">
+                    <h2>You : <span id="yourScore">0</span></h2>
+                </div>
+                <div class="flex-result-box-2" id="oppo-result-board">
+                    <h2>Opponent : <span id="botScore">0</span></h2>
+                </div>
+            </div>
+            <div class="flex-blackjack-row-2">
+                <button class="btn btn-primary" id="bj-hit-button">Hit</button>
+                <button class="btn btn-success" id="bj-stand-button">Stand</button>
+                <button class="btn btn-danger" id="bj-deal-button">Deal</button>
+            </div>
+            <div class="flex-blackjack-row-3">
+                <table>
+                    <tr>
+                        <th>Wins</th>
+                        <th>Losses</th>
+                        <th>Draw</th>
+                    </tr>
+                    <tr>
+                        <th><span id="wins">0</span></th>
+                        <th><span id="losses">0</span></th>
+                        <th><span id="draws">0</span></th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="system.js"></script>
+</html>
